@@ -1,0 +1,82 @@
+<UserScriptConfig>
+	<Script basedir="nodelay" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Type &quot;check.nodelay&quot; in the address bar will check if you have the latest version." enabled="false" filename="nodelay.user.js" installTime="1333486593349" lastUpdateCheck="1271732622890" modified="1271732622890" name="NoDelay" namespace="nodelay" runAt="document-end" updateAvailable="false" uuid="9acde92c-67c8-4e85-b688-2927e7094d73" version="1.4.20100417.1">
+		<Grant>unsafeWindow</Grant>
+		<Include>http://www.zshare.net/*</Include>
+	</Script>
+	<Script basedir="youtube_auto_buffer__aut" checkRemoteUpdates="true" dependhash="a0286f19418d4db1c1e269dbacd98fedfa4a352e" description="Buffers the video without autoplaying, removes in-video ads, and puts it in hd if the option is on. For Firefox and Opera" enabled="false" filename="youtube_auto_buffer__aut.user.js" installTime="1333486593432" lastUpdateCheck="1271746435765" modified="1271746435765" name="YouTube Auto Buffer &amp; Auto HD &amp; Remove Ads" namespace="userscripts.org" runAt="document-end" updateAvailable="false" uuid="a08d446f-f5f0-4cc0-93ba-255437b86c96" version="1.2.5">
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_getValue</Grant>
+		<Grant>GM_log</Grant>
+		<Grant>GM_openInTab</Grant>
+		<Grant>GM_registerMenuCommand</Grant>
+		<Grant>GM_setValue</Grant>
+		<Grant>GM_xmlhttpRequest</Grant>
+		<Grant>unsafeWindow</Grant>
+		<Include>http://*.youtube.com/*</Include>
+		<Include>http://youtube.com/*</Include>
+		<Require filename="updater.php"/>
+	</Script>
+	<Script basedir="zshare_timer_skip" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Adds direct link to skip the zSHARE download timer" enabled="false" filename="zshare_timer_skip.user.js" installTime="1333486593500" lastUpdateCheck="1271755241531" modified="1271755241531" name="zSHARE timer skip" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="60d45559-5d90-44dc-af19-619da22a0676" version="">
+		<Grant>none</Grant>
+		<Include>http://www.zshare.net/download/*</Include>
+	</Script>
+	<Script basedir="Watch_Series_Unwanted_Servers_Filter" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Remove unwanted filters from Watch Series episode pages" enabled="true" filename="Watch_Series_Unwanted_Servers_Filter.user.js" installTime="1333494279887" lastUpdateCheck="1333514024796" modified="1354443565625" name="Watch Series Unwanted Servers Filter" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="b4cb7d77-d998-43bb-acea-e5bc6c59dc05" version="">
+		<Grant>unsafeWindow</Grant>
+		<Include>http://watchseries.*/episode/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Watch_Series_Auto-Click_Here_to_Play" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the Click Here to Play button" enabled="true" filename="Watch_Series_Auto-Click_Here_to_Play.user.js" installTime="1333514264409" lastUpdateCheck="1333516111875" modified="1389416675912" name="Watch Series Auto-Click Here to Play" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="f21fa300-bb8e-40e9-b8bb-55ccbd66fc07" version="null">
+		<Exclude>http://watchseries.*/open/cale/*/idepisod/undefined</Exclude>
+		<Grant>none</Grant>
+		<Include>http://watchseries.*/open/cale/*.html</Include>
+		<Include>http://watchseries.*/open/cale/*/idepisod/*.html</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Vidbux_auto-clicker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the human verification button" enabled="true" filename="Vidbux_auto-clicker.user.js" installTime="1333603517887" lastUpdateCheck="1333607418874" modified="1355275643920" name="Vidbux auto-clicker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="63237beb-aa89-4ac6-ae2a-d7bcb3854c44" version="">
+		<Grant>none</Grant>
+		<Include>*180upload.com/*</Include>
+		<Include>*180upload.com/*</Include>
+		<Include>*movshare.net/video/*</Include>
+		<Include>*vidbux.com/*</Include>
+		<Include>*vidxden.com/*</Include>
+		<Include>*played.to/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Continue_Button_Countdown_Bypass" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Bypass continue button countdowns on GorillaVid-like sites" enabled="true" filename="Continue_Button_Countdown_Bypass.user.js" installTime="1334685710411" lastUpdateCheck="1334686015968" modified="1344639520906" name="Continue Button Countdown Bypass" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="0c910058-232f-4255-b3ed-323391fdf816" version="">
+		<Grant>none</Grant>
+		<Include>*daclips.in/*</Include>
+		<Include>*gorillavid.in/*</Include>
+		<Include>*movpod.in/*</Include>
+		<Include>*vreer.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Auto-continue_on_PutLocker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click continue button on PutLocker videos" enabled="true" filename="Auto-continue_on_PutLocker.user.js" installTime="1334898535438" lastUpdateCheck="1334898854873" modified="1336115896406" name="Auto-continue on PutLocker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="8526c491-a7e7-40e5-a65f-d2e9a4da9c8d" version="">
+		<Grant>none</Grant>
+		<Include>*.putlocker.com/file/*</Include>
+		<Include>*.sockshare.com/file/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Auto-continue_VidHuge" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the continue button on VidHuge" enabled="true" filename="Auto-continue_VidHuge.user.js" installTime="1335213487355" lastUpdateCheck="1335215438484" modified="1389520960912" name="Auto-continue VidHuge" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="1e96eb46-828c-4e09-884d-191e588fc9e9" version="null">
+		<Grant>none</Grant>
+		<Include>*www.vidhuge.com/*</Include>
+		<Include>*www.vidbull.com/*</Include>
+		<Include>*vodlocker.com/*</Include>
+		<Include>*faststream.in/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Follow_Free_link_on_FileNuke" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the Free link on FileNuke.com" enabled="true" filename="Follow_Free_link_on_FileNuke.user.js" installTime="1336713985193" lastUpdateCheck="1336714114578" modified="1337130258484" name="Follow Free link on FileNuke" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="02786295-17f0-4dac-bea2-a1c273946635" version="">
+		<Grant>none</Grant>
+		<Include>http://www.filenuke.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Movreel_auto-clicker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click Free Download button on Movreel.com" enabled="true" filename="Movreel_auto-clicker.user.js" installTime="1337138590685" lastUpdateCheck="1337138666796" modified="1337139049515" name="Movreel auto-clicker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="cee5b06b-7b27-4875-b5f6-09b0ab121466" version="">
+		<Grant>none</Grant>
+		<Include>*movreel.com/*</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+	<Script basedir="Uncheck_games_other_than_3-cushion_on_Kozoom_videos" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" filename="Uncheck_games_other_than_3-cushion_on_Kozoom_videos.user.js" installTime="1338161630086" lastUpdateCheck="1338163931609" modified="1338163931609" name="Uncheck games other than 3-cushion on Kozoom videos" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="56712eb2-da9c-41d1-be99-a832caa3fd1c" version="1">
+		<Grant>none</Grant>
+		<Include>http://www.kozoom.com/en/billiard-carom/videos.html</Include>
+		<Require filename="jquery.min.js"/>
+	</Script>
+</UserScriptConfig>
