@@ -1,38 +1,241 @@
 <UserScriptConfig>
-	<Script basedir="nodelay" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Type &quot;check.nodelay&quot; in the address bar will check if you have the latest version." enabled="false" filename="nodelay.user.js" installTime="1333486593349" lastUpdateCheck="1271732622890" modified="1271732622890" name="NoDelay" namespace="nodelay" runAt="document-end" updateAvailable="false" uuid="9acde92c-67c8-4e85-b688-2927e7094d73" version="1.4.20100417.1">
-		<Grant>unsafeWindow</Grant>
-		<Include>http://www.zshare.net/*</Include>
-	</Script>
-	<Script basedir="youtube_auto_buffer__aut" checkRemoteUpdates="true" dependhash="a0286f19418d4db1c1e269dbacd98fedfa4a352e" description="Buffers the video without autoplaying, removes in-video ads, and puts it in hd if the option is on. For Firefox and Opera" enabled="false" filename="youtube_auto_buffer__aut.user.js" installTime="1333486593432" lastUpdateCheck="1271746435765" modified="1271746435765" name="YouTube Auto Buffer &amp; Auto HD &amp; Remove Ads" namespace="userscripts.org" runAt="document-end" updateAvailable="false" uuid="a08d446f-f5f0-4cc0-93ba-255437b86c96" version="1.2.5">
-		<Grant>GM_deleteValue</Grant>
+	<Script basedir="Dont_track_me_Google" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome." enabled="false" noframes="false" filename="121923.user.js" installTime="1382721959649" modified="1382721959649" name="Don't track me Google" namespace="Rob W" runAt="document-end" updateMetaStatus="unknown" uuid="1eee5176-04df-4cbe-896d-996892d9bd76" version="3.6" installurl="http://userscripts.org/scripts/source/121923.user.js" updateurl="http://userscripts.org/scripts/source/121923.user.js">
 		<Grant>GM_getValue</Grant>
-		<Grant>GM_log</Grant>
-		<Grant>GM_openInTab</Grant>
-		<Grant>GM_registerMenuCommand</Grant>
+		<Match>*://*.google.com/*</Match>
+		<Match>*://*.google.ad/*</Match>
+		<Match>*://*.google.ae/*</Match>
+		<Match>*://*.google.com.af/*</Match>
+		<Match>*://*.google.com.ag/*</Match>
+		<Match>*://*.google.com.ai/*</Match>
+		<Match>*://*.google.am/*</Match>
+		<Match>*://*.google.co.ao/*</Match>
+		<Match>*://*.google.com.ar/*</Match>
+		<Match>*://*.google.as/*</Match>
+		<Match>*://*.google.at/*</Match>
+		<Match>*://*.google.com.au/*</Match>
+		<Match>*://*.google.az/*</Match>
+		<Match>*://*.google.ba/*</Match>
+		<Match>*://*.google.com.bd/*</Match>
+		<Match>*://*.google.be/*</Match>
+		<Match>*://*.google.bf/*</Match>
+		<Match>*://*.google.bg/*</Match>
+		<Match>*://*.google.com.bh/*</Match>
+		<Match>*://*.google.bi/*</Match>
+		<Match>*://*.google.bj/*</Match>
+		<Match>*://*.google.com.bn/*</Match>
+		<Match>*://*.google.com.bo/*</Match>
+		<Match>*://*.google.com.br/*</Match>
+		<Match>*://*.google.bs/*</Match>
+		<Match>*://*.google.co.bw/*</Match>
+		<Match>*://*.google.by/*</Match>
+		<Match>*://*.google.com.bz/*</Match>
+		<Match>*://*.google.ca/*</Match>
+		<Match>*://*.google.cd/*</Match>
+		<Match>*://*.google.cf/*</Match>
+		<Match>*://*.google.cg/*</Match>
+		<Match>*://*.google.ch/*</Match>
+		<Match>*://*.google.ci/*</Match>
+		<Match>*://*.google.co.ck/*</Match>
+		<Match>*://*.google.cl/*</Match>
+		<Match>*://*.google.cm/*</Match>
+		<Match>*://*.google.cn/*</Match>
+		<Match>*://*.google.com.co/*</Match>
+		<Match>*://*.google.co.cr/*</Match>
+		<Match>*://*.google.com.cu/*</Match>
+		<Match>*://*.google.cv/*</Match>
+		<Match>*://*.google.com.cy/*</Match>
+		<Match>*://*.google.cz/*</Match>
+		<Match>*://*.google.de/*</Match>
+		<Match>*://*.google.dj/*</Match>
+		<Match>*://*.google.dk/*</Match>
+		<Match>*://*.google.dm/*</Match>
+		<Match>*://*.google.com.do/*</Match>
+		<Match>*://*.google.dz/*</Match>
+		<Match>*://*.google.com.ec/*</Match>
+		<Match>*://*.google.ee/*</Match>
+		<Match>*://*.google.com.eg/*</Match>
+		<Match>*://*.google.es/*</Match>
+		<Match>*://*.google.com.et/*</Match>
+		<Match>*://*.google.fi/*</Match>
+		<Match>*://*.google.com.fj/*</Match>
+		<Match>*://*.google.fm/*</Match>
+		<Match>*://*.google.fr/*</Match>
+		<Match>*://*.google.ga/*</Match>
+		<Match>*://*.google.ge/*</Match>
+		<Match>*://*.google.gg/*</Match>
+		<Match>*://*.google.com.gh/*</Match>
+		<Match>*://*.google.com.gi/*</Match>
+		<Match>*://*.google.gl/*</Match>
+		<Match>*://*.google.gm/*</Match>
+		<Match>*://*.google.gp/*</Match>
+		<Match>*://*.google.gr/*</Match>
+		<Match>*://*.google.com.gt/*</Match>
+		<Match>*://*.google.gy/*</Match>
+		<Match>*://*.google.com.hk/*</Match>
+		<Match>*://*.google.hn/*</Match>
+		<Match>*://*.google.hr/*</Match>
+		<Match>*://*.google.ht/*</Match>
+		<Match>*://*.google.hu/*</Match>
+		<Match>*://*.google.co.id/*</Match>
+		<Match>*://*.google.ie/*</Match>
+		<Match>*://*.google.co.il/*</Match>
+		<Match>*://*.google.im/*</Match>
+		<Match>*://*.google.co.in/*</Match>
+		<Match>*://*.google.iq/*</Match>
+		<Match>*://*.google.is/*</Match>
+		<Match>*://*.google.it/*</Match>
+		<Match>*://*.google.je/*</Match>
+		<Match>*://*.google.com.jm/*</Match>
+		<Match>*://*.google.jo/*</Match>
+		<Match>*://*.google.co.jp/*</Match>
+		<Match>*://*.google.co.ke/*</Match>
+		<Match>*://*.google.com.kh/*</Match>
+		<Match>*://*.google.ki/*</Match>
+		<Match>*://*.google.kg/*</Match>
+		<Match>*://*.google.co.kr/*</Match>
+		<Match>*://*.google.com.kw/*</Match>
+		<Match>*://*.google.kz/*</Match>
+		<Match>*://*.google.la/*</Match>
+		<Match>*://*.google.com.lb/*</Match>
+		<Match>*://*.google.li/*</Match>
+		<Match>*://*.google.lk/*</Match>
+		<Match>*://*.google.co.ls/*</Match>
+		<Match>*://*.google.lt/*</Match>
+		<Match>*://*.google.lu/*</Match>
+		<Match>*://*.google.lv/*</Match>
+		<Match>*://*.google.com.ly/*</Match>
+		<Match>*://*.google.co.ma/*</Match>
+		<Match>*://*.google.md/*</Match>
+		<Match>*://*.google.me/*</Match>
+		<Match>*://*.google.mg/*</Match>
+		<Match>*://*.google.mk/*</Match>
+		<Match>*://*.google.ml/*</Match>
+		<Match>*://*.google.mn/*</Match>
+		<Match>*://*.google.ms/*</Match>
+		<Match>*://*.google.com.mt/*</Match>
+		<Match>*://*.google.mu/*</Match>
+		<Match>*://*.google.mv/*</Match>
+		<Match>*://*.google.mw/*</Match>
+		<Match>*://*.google.com.mx/*</Match>
+		<Match>*://*.google.com.my/*</Match>
+		<Match>*://*.google.co.mz/*</Match>
+		<Match>*://*.google.com.na/*</Match>
+		<Match>*://*.google.com.nf/*</Match>
+		<Match>*://*.google.com.ng/*</Match>
+		<Match>*://*.google.com.ni/*</Match>
+		<Match>*://*.google.ne/*</Match>
+		<Match>*://*.google.nl/*</Match>
+		<Match>*://*.google.no/*</Match>
+		<Match>*://*.google.com.np/*</Match>
+		<Match>*://*.google.nr/*</Match>
+		<Match>*://*.google.nu/*</Match>
+		<Match>*://*.google.co.nz/*</Match>
+		<Match>*://*.google.com.om/*</Match>
+		<Match>*://*.google.com.pa/*</Match>
+		<Match>*://*.google.com.pe/*</Match>
+		<Match>*://*.google.com.ph/*</Match>
+		<Match>*://*.google.com.pk/*</Match>
+		<Match>*://*.google.pl/*</Match>
+		<Match>*://*.google.pn/*</Match>
+		<Match>*://*.google.com.pr/*</Match>
+		<Match>*://*.google.ps/*</Match>
+		<Match>*://*.google.pt/*</Match>
+		<Match>*://*.google.com.py/*</Match>
+		<Match>*://*.google.com.qa/*</Match>
+		<Match>*://*.google.ro/*</Match>
+		<Match>*://*.google.ru/*</Match>
+		<Match>*://*.google.rw/*</Match>
+		<Match>*://*.google.com.sa/*</Match>
+		<Match>*://*.google.com.sb/*</Match>
+		<Match>*://*.google.sc/*</Match>
+		<Match>*://*.google.se/*</Match>
+		<Match>*://*.google.com.sg/*</Match>
+		<Match>*://*.google.sh/*</Match>
+		<Match>*://*.google.si/*</Match>
+		<Match>*://*.google.sk/*</Match>
+		<Match>*://*.google.com.sl/*</Match>
+		<Match>*://*.google.sn/*</Match>
+		<Match>*://*.google.so/*</Match>
+		<Match>*://*.google.sm/*</Match>
+		<Match>*://*.google.st/*</Match>
+		<Match>*://*.google.com.sv/*</Match>
+		<Match>*://*.google.td/*</Match>
+		<Match>*://*.google.tg/*</Match>
+		<Match>*://*.google.co.th/*</Match>
+		<Match>*://*.google.com.tj/*</Match>
+		<Match>*://*.google.tk/*</Match>
+		<Match>*://*.google.tl/*</Match>
+		<Match>*://*.google.tm/*</Match>
+		<Match>*://*.google.tn/*</Match>
+		<Match>*://*.google.to/*</Match>
+		<Match>*://*.google.com.tr/*</Match>
+		<Match>*://*.google.tt/*</Match>
+		<Match>*://*.google.com.tw/*</Match>
+		<Match>*://*.google.co.tz/*</Match>
+		<Match>*://*.google.com.ua/*</Match>
+		<Match>*://*.google.co.ug/*</Match>
+		<Match>*://*.google.co.uk/*</Match>
+		<Match>*://*.google.com.uy/*</Match>
+		<Match>*://*.google.co.uz/*</Match>
+		<Match>*://*.google.com.vc/*</Match>
+		<Match>*://*.google.co.ve/*</Match>
+		<Match>*://*.google.vg/*</Match>
+		<Match>*://*.google.co.vi/*</Match>
+		<Match>*://*.google.com.vn/*</Match>
+		<Match>*://*.google.vu/*</Match>
+		<Match>*://*.google.ws/*</Match>
+		<Match>*://*.google.rs/*</Match>
+		<Match>*://*.google.co.za/*</Match>
+		<Match>*://*.google.co.zm/*</Match>
+		<Match>*://*.google.co.zw/*</Match>
+		<Match>*://*.google.cat/*</Match>
+	</Script>
+	<Script basedir="Google_Hit_Hider_by_Domain_(Search_Filter_Block_Sites)" checkRemoteUpdates="1" dependhash="1614968f9546c4ef7b1aa2d1b459b539f60e5835" description="Block unwanted sites from your Google, DuckDuckGo and Startpage.com search results. For Firefox+Greasemonkey or Chrome+Tampermonkey. v1.6.4 2014-07-22" enabled="true" noframes="false" filename="Google_Hit_Hider_by_Domain_(Search_Filter_Block_Sites).user.js" installTime="1409598091056" modified="1409598091056" name="Google Hit Hider by Domain (Search Filter / Block Sites)" namespace="JeffersonScher" runAt="document-end" updateMetaStatus="ok" uuid="d5e62d44-ac32-45de-91c1-7f8300c93e50" version="1.6.4" installurl="https://greasyfork.org/scripts/1682-google-hit-hider-by-domain-search-filter-block-sites/code/Google%20Hit%20Hider%20by%20Domain%20(Search%20Filter%20%20Block%20Sites).user.js" updateurl="https://greasyfork.org/scripts/1682-google-hit-hider-by-domain-search-filter-block-sites/code/Google%20Hit%20Hider%20by%20Domain%20(Search%20Filter%20%20Block%20Sites).user.js">
+		<Grant>GM_addStyle</Grant>
+		<Grant>GM_getValue</Grant>
 		<Grant>GM_setValue</Grant>
+		<Grant>GM_registerMenuCommand</Grant>
+		<Grant>GM_deleteValue</Grant>
+		<Grant>GM_log</Grant>
 		<Grant>GM_xmlhttpRequest</Grant>
-		<Grant>unsafeWindow</Grant>
+		<Include>http*://www.google.*/*</Include>
+		<Include>http*://news.google.*/*</Include>
+		<Include>http*://images.google.*/*</Include>
+		<Include>http*://video.google.*/*</Include>
+		<Include>http*://encrypted.google.*/*</Include>
+		<Include>http*://startpage.com/*</Include>
+		<Include>http*://*.startpage.com/*</Include>
+		<Include>http*://duckduckgo.com/*</Include>
+		<Resource name="mycon" filename="gfrk-GHHbD-ver164.png" mimetype="image/png"/>
+	</Script>
+	<Script basedir="nodelay" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Type &quot;check.nodelay&quot; in the address bar will check if you have the latest version." enabled="false" noframes="false" filename="nodelay.user.js" installTime="1333486593349" modified="1416628390385" name="NoDelay" namespace="nodelay" runAt="document-end" updateMetaStatus="unknown" uuid="9acde92c-67c8-4e85-b688-2927e7094d73" version="1.4.20100417.1" installurl="null" updateurl="null">
+		<Grant>none</Grant>
+		<Include>http://*</Include>
+		<Include>https://*</Include>
+	</Script>
+	<Script basedir="youtube_auto_buffer__aut" checkRemoteUpdates="1" dependhash="a0286f19418d4db1c1e269dbacd98fedfa4a352e" description="Buffers the video without autoplaying, removes in-video ads, and puts it in hd if the option is on. For Firefox and Opera" enabled="false" noframes="false" filename="youtube_auto_buffer__aut.user.js" installTime="1333486593432" modified="1416628390401" name="YouTube Auto Buffer &amp; Auto HD &amp; Remove Ads" namespace="userscripts.org" runAt="document-end" updateMetaStatus="unknown" uuid="a08d446f-f5f0-4cc0-93ba-255437b86c96" version="1.2.5" installurl="null" updateurl="null">
+		<Grant>none</Grant>
 		<Include>http://*.youtube.com/*</Include>
 		<Include>http://youtube.com/*</Include>
 		<Require filename="updater.php"/>
 	</Script>
-	<Script basedir="zshare_timer_skip" checkRemoteUpdates="true" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Adds direct link to skip the zSHARE download timer" enabled="false" filename="zshare_timer_skip.user.js" installTime="1333486593500" lastUpdateCheck="1271755241531" modified="1271755241531" name="zSHARE timer skip" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="60d45559-5d90-44dc-af19-619da22a0676" version="">
+	<Script basedir="zshare_timer_skip" checkRemoteUpdates="1" dependhash="da39a3ee5e6b4b0d3255bfef95601890afd80709" description="Adds direct link to skip the zSHARE download timer" enabled="false" noframes="false" filename="zshare_timer_skip.user.js" installTime="1333486593500" modified="1416628390404" name="zSHARE timer skip" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="60d45559-5d90-44dc-af19-619da22a0676" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://www.zshare.net/download/*</Include>
 	</Script>
-	<Script basedir="Watch_Series_Unwanted_Servers_Filter" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Remove unwanted filters from Watch Series episode pages" enabled="true" filename="Watch_Series_Unwanted_Servers_Filter.user.js" installTime="1333494279887" lastUpdateCheck="1333514024796" modified="1354443565625" name="Watch Series Unwanted Servers Filter" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="b4cb7d77-d998-43bb-acea-e5bc6c59dc05" version="">
-		<Grant>unsafeWindow</Grant>
+	<Script basedir="Watch_Series_Unwanted_Servers_Filter" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Remove unwanted filters from Watch Series episode pages" enabled="true" noframes="false" filename="Watch_Series_Unwanted_Servers_Filter.user.js" installTime="1333494279887" modified="1416628390349" name="Watch Series Unwanted Servers Filter" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="b4cb7d77-d998-43bb-acea-e5bc6c59dc05" version="null" installurl="null" updateurl="null">
+		<Grant>none</Grant>
 		<Include>http://watchseries.*/episode/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Watch_Series_Auto-Click_Here_to_Play" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the Click Here to Play button" enabled="true" filename="Watch_Series_Auto-Click_Here_to_Play.user.js" installTime="1333514264409" lastUpdateCheck="1333516111875" modified="1389416675912" name="Watch Series Auto-Click Here to Play" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="f21fa300-bb8e-40e9-b8bb-55ccbd66fc07" version="null">
+	<Script basedir="Watch_Series_Auto-Click_Here_to_Play" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the Click Here to Play button" enabled="true" noframes="false" filename="Watch_Series_Auto-Click_Here_to_Play.user.js" installTime="1333514264409" modified="1416628390341" name="Watch Series Auto-Click Here to Play" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="f21fa300-bb8e-40e9-b8bb-55ccbd66fc07" version="null" installurl="null" updateurl="null">
 		<Exclude>http://watchseries.*/open/cale/*/idepisod/undefined</Exclude>
 		<Grant>none</Grant>
 		<Include>http://watchseries.*/open/cale/*.html</Include>
 		<Include>http://watchseries.*/open/cale/*/idepisod/*.html</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Vidbux_auto-clicker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the human verification button" enabled="true" filename="Vidbux_auto-clicker.user.js" installTime="1333603517887" lastUpdateCheck="1333607418874" modified="1355275643920" name="Vidbux auto-clicker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="63237beb-aa89-4ac6-ae2a-d7bcb3854c44" version="">
+	<Script basedir="Vidbux_auto-clicker" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Automatically click the human verification button" enabled="true" noframes="false" filename="Vidbux_auto-clicker.user.js" installTime="1333603517887" modified="1416628390333" name="Vidbux auto-clicker" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="63237beb-aa89-4ac6-ae2a-d7bcb3854c44" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>*180upload.com/*</Include>
 		<Include>*180upload.com/*</Include>
@@ -42,7 +245,7 @@
 		<Include>*played.to/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Continue_Button_Countdown_Bypass" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Bypass continue button countdowns on GorillaVid-like sites" enabled="true" filename="Continue_Button_Countdown_Bypass.user.js" installTime="1334685710411" lastUpdateCheck="1334686015968" modified="1344639520906" name="Continue Button Countdown Bypass" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="0c910058-232f-4255-b3ed-323391fdf816" version="">
+	<Script basedir="Continue_Button_Countdown_Bypass" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Bypass continue button countdowns on GorillaVid-like sites" enabled="true" noframes="false" filename="Continue_Button_Countdown_Bypass.user.js" installTime="1334685710411" modified="1416628390303" name="Continue Button Countdown Bypass" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="0c910058-232f-4255-b3ed-323391fdf816" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>*daclips.in/*</Include>
 		<Include>*gorillavid.in/*</Include>
@@ -50,13 +253,13 @@
 		<Include>*vreer.com/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Auto-continue_on_PutLocker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click continue button on PutLocker videos" enabled="true" filename="Auto-continue_on_PutLocker.user.js" installTime="1334898535438" lastUpdateCheck="1334898854873" modified="1336115896406" name="Auto-continue on PutLocker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="8526c491-a7e7-40e5-a65f-d2e9a4da9c8d" version="">
+	<Script basedir="Auto-continue_on_PutLocker" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click continue button on PutLocker videos" enabled="true" noframes="false" filename="Auto-continue_on_PutLocker.user.js" installTime="1334898535438" modified="1416628390297" name="Auto-continue on PutLocker" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="8526c491-a7e7-40e5-a65f-d2e9a4da9c8d" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>*.putlocker.com/file/*</Include>
 		<Include>*.sockshare.com/file/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Auto-continue_VidHuge" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the continue button on VidHuge" enabled="true" filename="Auto-continue_VidHuge.user.js" installTime="1335213487355" lastUpdateCheck="1335215438484" modified="1389520960912" name="Auto-continue VidHuge" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="1e96eb46-828c-4e09-884d-191e588fc9e9" version="null">
+	<Script basedir="Auto-continue_VidHuge" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the continue button on VidHuge" enabled="true" noframes="false" filename="Auto-continue_VidHuge.user.js" installTime="1335213487355" modified="1416628390290" name="Auto-continue VidHuge" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="1e96eb46-828c-4e09-884d-191e588fc9e9" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>*www.vidhuge.com/*</Include>
 		<Include>*www.vidbull.com/*</Include>
@@ -64,17 +267,17 @@
 		<Include>*faststream.in/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Follow_Free_link_on_FileNuke" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the Free link on FileNuke.com" enabled="true" filename="Follow_Free_link_on_FileNuke.user.js" installTime="1336713985193" lastUpdateCheck="1336714114578" modified="1337130258484" name="Follow Free link on FileNuke" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="02786295-17f0-4dac-bea2-a1c273946635" version="">
+	<Script basedir="Follow_Free_link_on_FileNuke" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click the Free link on FileNuke.com" enabled="true" noframes="false" filename="Follow_Free_link_on_FileNuke.user.js" installTime="1336713985193" modified="1416628390308" name="Follow Free link on FileNuke" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="02786295-17f0-4dac-bea2-a1c273946635" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://www.filenuke.com/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Movreel_auto-clicker" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click Free Download button on Movreel.com" enabled="true" filename="Movreel_auto-clicker.user.js" installTime="1337138590685" lastUpdateCheck="1337138666796" modified="1337139049515" name="Movreel auto-clicker" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="cee5b06b-7b27-4875-b5f6-09b0ab121466" version="">
+	<Script basedir="Movreel_auto-clicker" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="Auto-click Free Download button on Movreel.com" enabled="true" noframes="false" filename="Movreel_auto-clicker.user.js" installTime="1337138590685" modified="1416628390317" name="Movreel auto-clicker" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="cee5b06b-7b27-4875-b5f6-09b0ab121466" version="null" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>*movreel.com/*</Include>
 		<Require filename="jquery.min.js"/>
 	</Script>
-	<Script basedir="Uncheck_games_other_than_3-cushion_on_Kozoom_videos" checkRemoteUpdates="true" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" filename="Uncheck_games_other_than_3-cushion_on_Kozoom_videos.user.js" installTime="1338161630086" lastUpdateCheck="1338163931609" modified="1338163931609" name="Uncheck games other than 3-cushion on Kozoom videos" namespace="rob3c" runAt="document-end" updateAvailable="false" uuid="56712eb2-da9c-41d1-be99-a832caa3fd1c" version="1">
+	<Script basedir="Uncheck_games_other_than_3-cushion_on_Kozoom_videos" checkRemoteUpdates="1" dependhash="e8c3db9bef11e9af828798171a532a25173457bc" description="" enabled="true" noframes="false" filename="Uncheck_games_other_than_3-cushion_on_Kozoom_videos.user.js" installTime="1338161630086" modified="1416628390325" name="Uncheck games other than 3-cushion on Kozoom videos" namespace="rob3c" runAt="document-end" updateMetaStatus="unknown" uuid="56712eb2-da9c-41d1-be99-a832caa3fd1c" version="1" installurl="null" updateurl="null">
 		<Grant>none</Grant>
 		<Include>http://www.kozoom.com/en/billiard-carom/videos.html</Include>
 		<Require filename="jquery.min.js"/>
